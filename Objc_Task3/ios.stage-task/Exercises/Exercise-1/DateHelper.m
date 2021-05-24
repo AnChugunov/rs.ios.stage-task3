@@ -5,7 +5,7 @@
 #pragma mark - First
 
 -(NSString *)monthNameBy:(NSUInteger)monthNumber {
-    if (monthNumber < 0 || monthNumber > 12) {
+    if (monthNumber <= 0 || monthNumber > 12) {
         return nil;
     }
     else {
